@@ -34,7 +34,9 @@ const App=()=>{
             </div>
             
             <SectionArticle seleccion={seleccion1} info={infoPostres} inverso={false} titulo="Postres"/>
+            <div className="my-10 h-5"></div>
             <SectionArticle seleccion={seleccion3} info={infoSaladitos} inverso={true} titulo="Saladitos"/> 
+            <div className="my-10 h-5"></div>
             <SectionArticle seleccion={seleccion2} info={infoPanes} inverso={false} titulo="Panaderia"/>
             
         </div>
